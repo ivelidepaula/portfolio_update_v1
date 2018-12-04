@@ -88,10 +88,25 @@ header .profile-image:hover {
   background-color: #222;
   color: #87CEEB;
 }
+.grid {
+  width: 1500px;
+  height: 1000px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 50%;
+}
+.box {
+  width: 1500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+}
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  width: 90%;
+  height: 400px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -99,7 +114,43 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: gray;
+}
+.experience-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  width: 90%;
+  height: 800px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.blog-post {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  width: 90%;
+  height: 1250px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+}
+.blog-image {
+  height: auto; 
+  width: auto; 
+  max-width: 250px; 
+  max-height: 250px;
+}
+.icons {
+  float: left;
+  margin: 0px 50px 20px 20px;
+  height: auto; 
+  width: auto; 
+  max-width: 100px; 
+  max-height: 100px;
+  border-radius: 50%;
 }
 
 ul.skills {
