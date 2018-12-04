@@ -96,7 +96,7 @@ header .profile-image:hover {
   grid-template-rows: 50% 50%;
 }
 .box {
-  width: 1500px;
+  width: 1200px;
   height: 500px;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -105,8 +105,8 @@ header .profile-image:hover {
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
-  width: 90%;
-  height: 400px;
+  width: 80%;
+  height: 450px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -114,6 +114,20 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
+  border-color: gray;
+}
+.blog-card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  width: 90%;
+  height: 450px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.blog-card:hover {
   border-color: gray;
 }
 .experience-card {
